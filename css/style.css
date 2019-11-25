@@ -1,0 +1,127 @@
+/*==================== 
+		Navbar
+====================== */
+
+.navbar-default {
+    background-color: #505050;
+    border-color: #E7E7E7;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #ffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffff;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #ffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #E7E7E7;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffff;
+    background-color: #505050;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffff;
+    border-bottom-color: #777;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #ffff;
+    border-bottom-color: #333;
+}
+.navbar-default .navbar-nav > .open > a .caret,
+.navbar-default .navbar-nav > .open > a:hover .caret,
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #ffff;
+    border-bottom-color: #555;
+}
+/* Mobile version */
+.navbar-default .navbar-toggle {
+    border-color: #ffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #505050;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffff;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffff;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+}
+
+/*==================== 
+	************* 
+====================== */
+
+/*==================== 
+	Textos navbar 
+====================== */
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-text {
+    color: #ffff;
+}
+
+.navbar-text{
+	font-size: 18px;
+}
+
+/*==================== 
+	************* 
+====================== */
+
+/*==================== 
+		Footer 
+====================== */
+
+/* Copy Right Footer */
+.footer-copyright {	
+	background: #505050;	
+	padding: 5px 0;
+	position: fixed;
+	width: 100%;
+	margin: auto;
+	bottom: 0;
+}
+
+.footer-copyright p {	
+	color: #ffff;	
+	margin: 2px 0 0;
+}
+
+.footer-copyright a {	
+	color: #ffff;	
+	margin: 2px 0 0;
+}
+
+/*==================== 
+	************* 
+====================== */
